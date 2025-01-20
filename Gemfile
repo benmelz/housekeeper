@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "action_policy"
 gem "bootsnap", require: false
 gem "cssbundling-rails"
 gem "haml-rails"

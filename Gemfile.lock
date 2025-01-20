@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    action_policy (0.7.3)
+      ruby-next-core (>= 1.0)
     actioncable (8.0.1)
       actionpack (= 8.0.1)
       activesupport (= 8.0.1)
@@ -307,6 +309,7 @@ GEM
     rubocop-rspec_rails (2.30.0)
       rubocop (~> 1.61)
       rubocop-rspec (~> 3, >= 3.0.1)
+    ruby-next-core (1.1.0)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
     simplecov (0.22.0)
@@ -389,6 +392,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  action_policy
   bootsnap
   brakeman
   cssbundling-rails
