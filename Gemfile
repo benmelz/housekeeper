@@ -58,4 +58,10 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "haml-lint", require: false
   gem "web-console"
+  gem "rubocop-rspec", require: false
+  gem "rubocop-rspec_rails", require: false
+end
+
+group :test do
+  gem "rspec-rails"
 end
