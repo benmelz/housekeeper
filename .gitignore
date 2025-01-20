@@ -8,6 +8,7 @@
 !/log/.keep
 /node_modules
 /public/assets
+/spec/examples.txt
 /storage/*
 !/storage/.keep
 /tmp/*
