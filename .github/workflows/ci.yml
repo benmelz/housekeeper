@@ -64,4 +64,6 @@ jobs:
           node-version-file: .node-version
           cache: npm
       - run: bin/setup
+      - run: bin/rails javascript:build
+      - run: bin/rails css:build
       - run: bin/rspec
