@@ -6,6 +6,6 @@ export default {
   parser: postcssScss,
   plugins: [
     autoprefixer,
-    postcssSass(),
+    postcssSass({ includePaths: ['node_modules'], quietDeps: true }),
   ],
 }

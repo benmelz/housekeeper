@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@csstools/postcss-sass": "*",
+    "@fortawesome/fontawesome-free": "*",
     "@hotwired/stimulus": "*",
     "@hotwired/turbo-rails": "*",
+    "@popperjs/core": "*",
     "autoprefixer": "*",
+    "bootstrap": "*",
     "esbuild": "*",
     "postcss": "*",
     "postcss-cli": "*",
