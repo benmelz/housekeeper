@@ -8,5 +8,6 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 #   Enabled: false
 
 require:
+  - rubocop-rake
   - rubocop-rspec
   - rubocop-rspec_rails
