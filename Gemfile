@@ -7,6 +7,7 @@ gem "haml-rails"
 gem "jbuilder"
 gem "jsbundling-rails"
 gem "kamal", require: false
+gem "paper_trail"
 gem "propshaft"
 gem "puma"
 gem "rails"
