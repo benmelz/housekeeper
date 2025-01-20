@@ -1,0 +1,8 @@
+inherit_gem: { rubocop-rails-omakase: rubocop.yml }
+require:
+  - rubocop-factory_bot
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-rspec_rails
+Bundler/OrderedGems:
+  Enabled: true

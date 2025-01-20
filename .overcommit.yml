@@ -1,0 +1,26 @@
+PreCommit:
+  ALL:
+    problem_on_unmodified_line: ignore
+  EsLint:
+    enabled: true
+    required_executable: npx
+    command: ["npx", "eslint"]
+  ForbiddenBranches:
+    enabled: true
+    branch_patterns: ["main"]
+  HamlLint:
+    enabled: true
+    on_warn: fail
+    required_executable: bundle
+    command: ["bundle", "exec", "haml-lint"]
+  RuboCop:
+    enabled: true
+    required_executable: bundle
+    command: ["bundle", "exec", "rubocop"]
+  Stylelint:
+    enabled: true
+    required_executable: npx
+    command: ["npx", "stylelint"]
+CommitMsg:
+  ALL:
+    enabled: false
