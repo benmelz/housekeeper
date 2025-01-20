@@ -4,3 +4,5 @@ require:
   - rubocop-rake
   - rubocop-rspec
   - rubocop-rspec_rails
+Bundler/OrderedGems:
+  Enabled: true
