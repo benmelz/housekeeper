@@ -27,6 +27,7 @@ end
 group :development do
   gem "brakeman", require: false
   gem "haml-lint", require: false
+  gem "overcommit", require: false
   gem "rubocop-factory_bot", require: false
   gem "rubocop-rails-omakase", require: false
   gem "rubocop-rake", require: false
