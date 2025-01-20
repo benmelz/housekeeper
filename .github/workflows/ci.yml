@@ -52,6 +52,23 @@ jobs:
       - name: Lint code for consistent style
         run: bin/haml-lint
 
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Install dependencies
+      - run: npm install
+
+      - name: Lint code for consistent style
+        run: npm run lint
+
   stylelint:
     runs-on: ubuntu-latest
     steps:
